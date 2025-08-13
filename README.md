@@ -2,7 +2,7 @@
 
 **Autor:** [Grupo 01]
 
-**▶️ [Assista à demonstração do projeto no YouTube](https://www.youtube.com/seu-link-do-video)**
+**▶️ [Assista à demonstração do projeto no YouTube](https://youtu.be/S-0SO68h0eo)**
 
 Este projeto utiliza o microcontrolador **Raspberry Pi Pico (RP2040)** em conjunto com os sensores **BMP280** (pressão/temperatura) e **AHT20** (umidade/temperatura), além de um módulo **LoRa SX1276**. O sistema realiza a leitura dos dados ambientais e transmite via rádio LoRa para outro Pico W, que recebe e exibe as informações.
 
@@ -50,3 +50,4 @@ mkdir build && cd build
 cmake ..
 make
 ```
+
